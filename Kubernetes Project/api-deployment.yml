@@ -20,9 +20,9 @@ spec:
           env:
             - name: POSTGRES_USER
               value: postgres
-            - name: PGHOST
+            - name: POSTGRES_HOST
               value: postgres-cluster-ip-service
-            - name: PGPORT
+            - name: POSTGRES_PORT
               value: '5432'
             - name: POSTGRES_DB
               value: postgres
